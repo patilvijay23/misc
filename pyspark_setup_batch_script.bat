@@ -48,6 +48,6 @@ echo *********************************************************
 echo *********************************************************
 
 
-echo Thank you for using this setup. Please like (clap) the medium article.
+echo Thank you for using this setup. Please like (clap) the medium article if it was helpful.
 timeout 5
 start chrome "https://patilvijay23.medium.com/installing-and-using-pyspark-on-windows-machine-59c2d64af76e"
