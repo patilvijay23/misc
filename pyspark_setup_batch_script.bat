@@ -41,6 +41,10 @@ ECHO Setting Env variables
 setx SPARK_HOME "%cd%\spark-2.4.3-bin-hadoop2.7"
 setx HADOOP_HOME "%SPARK_HOME%\hadoop
 setx JAVA_HOME "C:\Program Files\Java\jre1.8.0_271"
+REM Optional variables for using Jupyter instead of console. Uncomment/comment below lines
+REM setx PYSPARK_DRIVER_PYTHON "jupyter"
+REM setx PYSPARK_DRIVER_PYTHON_OPTS "notebook"
+
 echo *********************************************************
 echo *********************************************************
 
