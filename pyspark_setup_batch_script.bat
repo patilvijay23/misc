@@ -1,6 +1,6 @@
 @echo off
 echo ****PySpark Installation on Windows****
-echo ****https://medium.com/@patilvijay2310/about****
+echo ****https://patilvijay23.medium.com/about****
 timeout 5
 
 REM Update path to install Spark at required location.
@@ -44,11 +44,10 @@ setx JAVA_HOME "C:\Program Files\Java\jre1.8.0_271"
 REM Optional variables for using Jupyter instead of console. Uncomment/comment below lines
 REM setx PYSPARK_DRIVER_PYTHON "jupyter"
 REM setx PYSPARK_DRIVER_PYTHON_OPTS "notebook"
-
 echo *********************************************************
 echo *********************************************************
 
 
 echo Thank you for using this setup. Please like (clap) the medium article.
 timeout 5
-start chrome "https://medium.com/@patilvijay2310/about"
+start chrome "https://patilvijay23.medium.com/installing-and-using-pyspark-on-windows-machine-59c2d64af76e"
