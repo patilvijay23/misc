@@ -39,7 +39,7 @@ REM Update the Env paths as per installation directories.
 REM 'Path' variable step will have to be done manually. Lots of issues in using setx for updating 'Path'
 ECHO Setting Env variables
 setx SPARK_HOME "%cd%\spark-2.4.3-bin-hadoop2.7"
-setx HADOOP_HOME "%SPARK_HOME%\hadoop
+setx HADOOP_HOME "%SPARK_HOME%\hadoop"
 setx JAVA_HOME "C:\Program Files\Java\jre1.8.0_271"
 REM Optional variables for using Jupyter instead of console. Uncomment/comment below lines
 REM setx PYSPARK_DRIVER_PYTHON "jupyter"
